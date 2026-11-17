@@ -1,0 +1,9 @@
+services:
+  pingvin-share-x:
+    image: 
+kasmweb/share
+:
+1.17.0-rolling
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
